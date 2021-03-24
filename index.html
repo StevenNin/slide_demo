@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+     <title>Document</title>
+    <style>
+        .images{
+            display: flex;
+            align-items: flex-start;
+            transition: all 0.5s;
+        }
+        .images > img{
+            vertical-align: top;
+        }
+        .window{
+            width: 300px;
+            overflow: hidden;
+        }
+    </style>
+</head>
+<body>
+    <div class="window">
+        <div class="images" id="images">
+            <img src="https://ss3.bdstatic.com/70cFv8Sh_Q1YnxGkpoWK1HF6hhy/it/u=1826824853,1446424192&fm=26&gp=0.jpg" alt="" width =300 height=200>
+            <img src="https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fpic.baike.soso.com%2Fp%2F20110320%2Fbki-20110320233636-1602035269.jpg&refer=http%3A%2F%2Fpic.baike.soso.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=jpeg?sec=1619199802&t=62f36ffe713d1fce9e7322b52641715b" alt="" width =300 height=200>
+            <img src="https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fyy.yuanlin.com%2Fuppic%2F200910%2F20091020144729917.jpg&refer=http%3A%2F%2Fyy.yuanlin.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=jpeg?sec=1619199802&t=bf5799010cfea82e8232b2035f0756e5" alt="" width =300 height=200>
+            <img src="https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fi7.hexunimg.cn%2F2012-04-02%2F140021010.jpg&refer=http%3A%2F%2Fi7.hexunimg.cn&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=jpeg?sec=1619199802&t=8bd78c8c716b69bae17e0948460cf96e" alt="" width =300 height=200>
+        </div>
+    </div>
+    <span id="buttons">
+        <span>第1张</span>
+        <span>第2张</span>
+        <span>第3张</span>
+        <span>第4张</span>
+    </span>
+    <script src="https://cdn.staticfile.org/jquery/2.1.4/jquery.min.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
