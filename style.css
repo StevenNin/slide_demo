@@ -1,3 +1,11 @@
 .red{
     color: red;
 }
+
+.images{
+    display: flex;
+    transition: all 1s;
+}
+.window{
+    margin: 20px auto;
+}
